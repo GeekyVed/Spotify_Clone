@@ -63,13 +63,13 @@
         <div class="main-content">
             <div class="sticky-nav">
                 <div class="sticky-nav-icons">
-                    <img src="assets\backward_icon.png" alt="">
-                    <img src="assets\forward_icon.png" class="hide" alt="">
+                    <img src="assets\backward_icon.png" class="upper">
+                    <img src="assets\forward_icon.png" class="hide upper">
                 </div>
                 <div class="sticky-nav-options">
-                    <button class="badge nav-item">Explore Premium</button>
-                    <button class="badge nav-item dark-badge hide"><i class="fa-regular fa-circle-down"
-                            style="margin-right: 0.5rem;"></i>Install App</button>
+                    <button class="badge nav-item" style="width:140px">Explore Premium</button>
+                    <button class="badge nav-item dark-badge hide" style="width:118px"><i
+                            class="fa-regular fa-circle-down" style="margin-right: 0.5rem;"></i>Install App</button>
                     <i class="fa-regular fa-user nav-item"></i>
 
                 </div>
@@ -127,9 +127,44 @@
                 <div class="line"></div>
             </div>
 
-            
+
         </div>
-        <div class="music-player">Music</div>
+        <div class="music-player">
+            <div class="album">
+                <img src="assets\albumimg.jpg" alt="">
+                <div class="data">
+                    <p class="data-up">Daylight</p>
+                    <p class="data-down">David Kushner</p>
+                </div>
+                <i class="fa-regular fa-heart heart"></i>
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="assets\player_icon1.png" class="player-control-icons onenfive">
+                    <img src="assets\player_icon2.png" class="player-control-icons twonfour">
+                    <img src="assets\player_icon3.png" class="player-control-icons" style="opacity: 1; height : 2rem">
+                    <img src="assets\player_icon4.png" class="player-control-icons twonfour">
+                    <img src="assets\player_icon5.png" class="player-control-icons onenfive">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time" style="font-size:0.65rem; opacity: 0.73;">0:00 </span>
+                    <input type="range" min="0" max="100" step="1" class="progress-bar">
+                    <span class="tot-time" style="font-size:0.65rem; opacity: 0.73;">3:33 </span>
+
+                </div>
+            </div>
+
+            <div class="controls">
+                <i class="fa-solid fa-file-audio ctrl-buttons" style="padding-left: 3.1rem;"></i>
+                <i class="fa-solid fa-microphone ctrl-buttons"></i>
+                <i class="fa-solid fa-layer-group ctrl-buttons"></i>
+                <i class="fa-solid fa-laptop ctrl-buttons"></i>
+                <i class="fa-solid fa-volume-xmark ctrl-buttons"></i>
+                <input type="range" class="volctrl progress-bar" step="1" style="margin-right: 1rem;">
+                <i class="fa-solid fa-down-left-and-up-right-to-center ctrl-buttons"></i>
+            </div>
+        </div>
     </div>
 </body>
 
